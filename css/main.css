@@ -1,0 +1,137 @@
+/* Start Global */
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* End Global */
+
+/* Start Of Headre */
+.main{
+    padding: 10px;
+    text-align: center;
+    background-image: url(../img/Blue-abstract-background-with-sparkling-lights.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.main h1{
+    font-size: 75px;
+    padding: 10px;
+    margin: 10px 10px 25px 10px;
+    font-family: 'Playball';
+}
+
+/* End Of Header */
+
+/* Start Of Main Content */
+.main-content{
+   /* border: 1px solid #00f;*/
+    margin: 10px ;
+    font-family: 'Niramit';
+    /*background: #ebece766;*/
+
+}
+.main-content .content{
+    margin: 10px 0;
+    background: #d9ddde82;
+}
+.pragraph{
+    position: relative;
+    width: 85%;
+    height: 730px;
+}
+ p{
+    padding: 20px;
+    margin: 10px;
+    text-align: center; 
+    line-height: 50px;
+    font-size: 25px;
+}
+p .bold{
+    font-weight: 600;
+}
+.personal-photo{
+    background: #00000078;
+    position: absolute;
+    top: 230px;
+    right: 40px;
+    width: 195px;
+    height: 240px;
+    border: 3px solid #c2c5bc93;
+    border-radius: 50%;
+}
+.personal-photo img{
+    width: 160px;
+    margin-top: 8px;
+    margin-left: 14px;
+    border-radius: 50%;
+
+}
+p .btn{
+    padding: 10px;
+    color: white;
+    background: #81e5e5;
+    border-radius: 8px;
+    font-size: medium;
+    border: 1px solid #38bed4;
+}
+p .btn:hover{
+    background: #50caca;
+    border: 1px solid #3ba0ad;
+    cursor: pointer;
+}
+dialog{
+    top: 5%;
+    left: 35%;
+    border: 2px solid #9c9ca0;
+    padding: 10px 10px 0 10px;
+    background: #8080803d;
+    border-radius: 10px;
+}
+#dialog-link{
+    top: 70%;
+    left: 25%;
+}
+#dialog-corse{
+    top:20%;
+}
+.close{
+    position: absolute;
+    left: 97%;
+    top: -2%;
+}
+.close:hover{
+    cursor: pointer;
+}
+.dialog-photo{
+    width: 452px;
+    height: 631px;
+}
+a{
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color : rgb(51, 50, 50);
+}
+.mail{
+    margin-left: 205px;
+}
+.tele{
+    margin-left: 355px;
+}
+/* End Of Main Content */
+/* Start Of Footer */
+
+footer{
+    height: 100px;
+    background: #1d171717;
+    margin: 10px;
+}
+/* End Of Footer */
