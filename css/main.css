@@ -16,6 +16,8 @@
     background-image: url(../img/Blue-abstract-background-with-sparkling-lights.jpg);
     background-position: left top;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
 }
 .main h1{
     font-size: 75px;
